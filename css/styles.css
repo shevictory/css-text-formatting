@@ -1,0 +1,45 @@
+p {
+  color: brown;
+  font-size: 16px;
+  text-align: left;
+  direction: ltr;
+
+  /* letter-spacing: 0em; + */
+  /* word-spacing: 0em; + */
+  /* line-height: 1.15em; */
+  /* text-indent: 1em; + */
+  /* text-shadow: смещение-x | смещение-y | радиус-размытия | цвет */
+
+  /* text-overflow: ellipsis; */
+
+  /* unicode-bidi: ; */
+  /* 
+  vertical-align: baseline; ???
+  height: 200px;
+  width: 100%;
+  border: burlywood 1px solid; */
+
+  /* white-space: пробелы/переносы; пример для кнопок*/
+
+  /* font-weight: lighter; */
+  /* font-family: ; */
+  /* font-style: oblique 40deg; */
+  /* font-variant: ; ??? */
+  /* font-stretch:;  ???*/
+  /* cursor: ; */
+  /* text-auto: clip; нету?  */
+}
+
+a {
+  text-decoration: none; /* -style, -line, -color*/
+}
+
+button {
+  text-transform: capitalize;
+  min-width: 50px;
+  width: 40%;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis; /* Пример в youtube */
+}
